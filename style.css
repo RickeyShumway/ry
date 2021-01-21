@@ -1,0 +1,67 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    border: 2px solid green;
+}
+
+header, footer {
+    border: 2px solid orange;
+    background-color: rgb(255, 185, 65);
+    height: 80px;
+    padding: 0 80px;
+}
+
+.content {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    
+}
+.block, #main, .words, .images {
+    padding: 0 80px;
+}
+.block {
+    border: 2px solid blue;
+    margin: 1px 0;
+    height: 500px;
+
+}
+#main {
+    background-image: url("images/hero-image.jpg");
+}
+.words {
+    border: 2px solid yellow;
+    height: 250px;
+
+}
+.images {
+    border: 2px solid purple;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+.pic {
+    display: flex;
+    border: 5px solid rgb(0, 196, 114);
+    max-height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+.caption {
+
+}
